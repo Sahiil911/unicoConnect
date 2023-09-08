@@ -15,7 +15,7 @@ const[two, setTwo]= useState(false)
           onMouseLeave={()=>setServices(false)}><a>Services 
           {services &&  <div className='border-white	border-0.5 p-4 w-56 absolute text-white top-10 z-10 bg-black'>
           <ul>
-            <li className='py-3' >Mobile App Development</li>
+            <li className='py-3 hover:text-gray-300' >Mobile App Development</li>
             <li className='py-3' >Web Development</li>
             <li className='py-3' >UI/UX Design</li>
             <li className='py-3' >All Development</li>
